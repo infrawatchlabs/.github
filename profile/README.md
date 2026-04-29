@@ -29,7 +29,7 @@ No vendor lock-in. No per-host pricing. AGPLv3 — self-host it, own your data.
 | Repo | Description |
 |------|-------------|
 | [eyriehq/eyriehq](https://github.com/eyriehq/eyriehq) | Core platform — FastAPI backend, React frontend |
-| [eyriehq/monitor-agent](https://github.com/eyriehq/monitor-agent) | Go + OTel agent for metrics, logs, and traces |
+| [eyriehq/plugins](https://github.com/eyriehq/plugins) | Plugins Repository |
 | [eyriehq/helm-charts](https://github.com/eyriehq/helm-charts) | Helm charts for Kubernetes deployments |
 
 <p align="center">
