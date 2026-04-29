@@ -1,40 +1,38 @@
 <p align="center">
-  <a href="https://infrawatchlabs.com">
-    <img src="https://infrawatchlabs.com/images/og-image.png" alt="InfraWatch" width="600" />
+  <a href="https://eyriehq.com">
+    <img src="./social-preview.png" alt="EyrieHQ" width="600" />
   </a>
 </p>
 
-<h3 align="center">Open-source infrastructure intelligence — monitoring, observability, and JIT access control</h3>
+<h3 align="center">Open-source infrastructure intelligence — monitoring, observability, and JIT access control for AWS</h3>
 
 <p align="center">
-  <a href="https://infrawatchlabs.com">Website</a> ·
-  <a href="https://infrawatchlabs.com/features">Features</a> ·
-  <a href="https://infrawatchlabs.com/blog">Blog</a> ·
-  <a href="https://infrawatchlabs.com/docs">Get Started</a>
+  <a href="https://eyriehq.com">Website</a> ·
+  <a href="https://eyriehq.com/features">Features</a> ·
+  <a href="https://eyriehq.com/blog">Blog</a> ·
+  <a href="https://eyriehq.com/docs">Docs</a>
 </p>
 
 ---
 
-### What is InfraWatch?
+EyrieHQ is a self-hosted infrastructure intelligence platform for AWS — built for DevOps engineers, SREs, and platform teams who want full visibility and **zero standing access**.
 
-InfraWatch is a self-hosted infrastructure intelligence platform for AWS with **zero standing access** — built for DevOps engineers, SREs, and platform teams who care about security and observability.
+- **Real-time AWS monitoring** across EC2, EKS, RDS, ElastiCache, DocumentDB, and more
+- **Full-stack observability** — logs, metrics, and traces via an OpenTelemetry-native agent
+- **JIT access control** — request-approval workflows with auto-expiring STS credentials
+- **Plugin architecture** — 15+ plugins, open SDK, extensible by design
 
-- **Real-time monitoring** across 12 AWS services (EC2, EKS, RDS, ElastiCache, DocumentDB, and more)
-- **Full-stack observability** — logs, metrics, and traces via the OpenTelemetry-native Monitor Agent
-- **JIT access control** with request-approval workflows and auto-expiring STS credentials
-- **Connector & plugin architecture** — 15 plugins across 2 connectors (AWS + Observability), plus an open SDK
+No vendor lock-in. No per-host pricing. AGPLv3 — self-host it, own your data.
 
-No vendor lock-in. No per-host pricing. Your infrastructure, your data.
+### Key repos
 
-### Tech Stack
-
-`FastAPI` · `React` · `PostgreSQL` · `Go` · `OpenTelemetry` · `ClickHouse` · `Celery` · `Valkey`
-
-### Get Started
-
-InfraWatch is open-source and free to deploy. Check out the [documentation](https://infrawatchlabs.com/docs) to set it up in minutes with Docker Compose or Helm.
+| Repo | Description |
+|------|-------------|
+| [eyriehq/eyriehq](https://github.com/eyriehq/eyriehq) | Core platform — FastAPI backend, React frontend |
+| [eyriehq/monitor-agent](https://github.com/eyriehq/monitor-agent) | Go + OTel agent for metrics, logs, and traces |
+| [eyriehq/helm-charts](https://github.com/eyriehq/helm-charts) | Helm charts for Kubernetes deployments |
 
 <p align="center">
-  <a href="https://www.linkedin.com/company/infrawatchlabs">LinkedIn</a> ·
-  <a href="https://infrawatchlabs.com/blog">Blog</a>
+  <a href="https://www.linkedin.com/company/eyriehq">LinkedIn</a> ·
+  <a href="https://eyriehq.com/blog">Blog</a>
 </p>
